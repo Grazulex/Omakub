@@ -1,4 +1,4 @@
-#Ubuntu Development Installation
+# Ubuntu Development Installation
 
 1.  Install fresh version of Ubuntu 24.04+ (I have only tested on 24.04)
 2.  Get & Install Amakud:
@@ -32,3 +32,8 @@ git config --global user.name "Jean-Marc Strauven"
 git config --global init.defaultBranch main
 ```
 
+7. Create a SSH key
+```
+ssh-keygen -t ed25519 -C "jms@grazulex.be"
+```
+and copy this in your GitHub Account
