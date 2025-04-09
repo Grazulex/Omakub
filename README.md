@@ -107,5 +107,7 @@ add this line
 xdebug.mode=develop,debug,coverage
 xdebug.start_with_request=yes
 xdebug.client_host=127.0.0.1
+xebug.remote_handler=dbgp
+xdebug.log = /tmp/xdebug_remote.log
 xdebug.client_port=9003
 ```
