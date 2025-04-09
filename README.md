@@ -96,3 +96,16 @@ In a test file, you can run the test via the command:
 ```
 Space + t + (choice your option)
 ```
+
+12. Install Xdebug
+```
+sudo apt install php8.4-xdebug
+nano /usr/local/etc/php/8.4/php.ini
+```
+add this line
+```
+xdebug.mode=develop,debug,coverage
+xdebug.start_with_request=yes
+xdebug.client_host=127.0.0.1
+xdebug.client_port=9003
+```
